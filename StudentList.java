@@ -6,7 +6,7 @@ public class StudentList {
 	public static void main(String[] args) {
 
 		/* Check argument count */
-
+		//This section is for all Student
 		if(args[0].equals("a")) {
 
 			System.out.println("Loading data ...");			
@@ -23,7 +23,7 @@ public class StudentList {
 			} 
 			System.out.println("Data Loaded.");
 		}
-
+		//This is for the Random Student Selection
 		else if(args[0].equals("r")){
 			System.out.println("Loading data ...");			
 			try {
@@ -40,7 +40,7 @@ public class StudentList {
 			} 
 			System.out.println("Data Loaded.");			
 		}
-
+		//This is for the Add new Student
 		else if(args[0].contains("+")){
 			System.out.println("Loading data ...");			
 			try {
@@ -55,7 +55,7 @@ public class StudentList {
 							
 			System.out.println("Data Loaded.");	
 		}
-
+		//This is for the checked the student is in the file
 		else if(args[0].contains("?")) 
 		{
 			System.out.println("Loading data ...");			
@@ -77,7 +77,7 @@ public class StudentList {
 			} 
 			System.out.println("Data Loaded.");				
 		}
-
+		//This is for the count the word
 		else if(args[0].contains("c")) 
 		{
 			System.out.println("Loading data ...");			
